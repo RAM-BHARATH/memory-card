@@ -47,12 +47,12 @@ const characterArray = [
   },
   {
     id:9,
-    name:'',
+    name:'Hinata Hyuga',
     visited: 0
   },
   {
     id:10,
-    name:'',
+    name:'Neji Hyuga',
     visited: 0
   },
 ];
