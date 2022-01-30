@@ -1,4 +1,5 @@
-import './App.css';
+import './styles/reset.css';
+import './styles/App.css';
 import Header from './Components/Header';
 import { useEffect, useState } from 'react';
 import Items from './Components/Items';
@@ -172,14 +173,14 @@ function App() {
     console.log("Shuffle", characterArray);
   }
 
-  const getCharacter = (id) =>{
-    narutoCharacters.filter(character=>{
-      if(character.id===id){
-        console.log(character.name,character.id,character.visited);
-      }
-      return 0;
-    })
-  }
+  // const getCharacter = (id) =>{
+  //   narutoCharacters.filter(character=>{
+  //     if(character.id===id){
+  //       console.log(character.name,character.id,character.visited);
+  //     }
+  //     return 0;
+  //   })
+  // }
   useEffect(() =>{
     const newArray = shuffleArray([...characterArray])
     console.log("From use effect");
@@ -188,8 +189,7 @@ function App() {
   },[]);
   return (
     <div className="App">
-      {console.log(narutoCharacters)}
-      <Header currScore={currentScore} best={bestScore}/>
+      <Header currScore={currentScore} best={bestScore} className="header"/>
       <Items characters={narutoCharacters} setVisitedStatus={setVisitedStatus} handleShuffle={handleShuffle}/>
       {/* <div>
             {narutoCharacters.map(character =>(
