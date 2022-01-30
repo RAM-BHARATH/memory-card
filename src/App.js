@@ -10,61 +10,61 @@ const characterArray = [
     id:1,
     name:'Naruto Uzumaki',
     visited: 0,
-    imageLocation:"../images/naruto.jpeg"
+    imageLocation:"./images/naruto.jpeg"
   },
   {
     id:2,
     name:'Sasuke Uchiha',
     visited: 0,
-    imageLocation:"../images/sasuke.jpeg"
+    imageLocation:"./images/sasuke.jpeg"
   },
   {
     id:3,
     name:'Shikamaru Nara',
     visited: 0,
-    imageLocation:"../images/shikamaru.jpeg"
+    imageLocation:"./images/shikamaru.jpeg"
   },
   {
     id:4,
     name:'Rock Lee',
     visited: 0,
-    imageLocation:"../images/rock_lee.jpeg"
+    imageLocation:"./images/rock_lee.jpeg"
   },
   {
     id:5,
     name:'Kiba Inuzuka',
     visited: 0,
-    imageLocation:"../images/kiba.jpeg"
+    imageLocation:"./images/kiba.jpeg"
   },
   {
     id:6,
     name:'Sakura Haruna',
     visited: 0,
-    imageLocation:"../images/sakura.jpeg"
+    imageLocation:"./images/sakura.jpeg"
   },
   {
     id:7,
     name:'Ino Yamanaka',
     visited: 0,
-    imageLocation:"../images/ino.jpeg"
+    imageLocation:"./images/ino.jpeg"
   },
   {
     id:8,
     name:'Choji Akimichi',
     visited: 0,
-    imageLocation:"../images/choji.jpeg"
+    imageLocation:"./images/choji.jpeg"
   },
   {
     id:9,
     name:'Hinata Hyuga',
     visited: 0,
-    imageLocation:"../images/hinata.jpeg"
+    imageLocation:"./images/hinata.jpeg"
   },
   {
     id:10,
     name:'Neji Hyuga',
     visited: 0,
-    imageLocation:"../images/neji.jpeg"
+    imageLocation:"./images/neji.jpeg"
   },
 ];
 
